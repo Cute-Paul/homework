@@ -1,0 +1,44 @@
+.text1 {
+    font-family: "Open Sans" sans-serif;
+    font-weight: 300;
+    font-size: 20px;
+    line-height: 30px;
+    font-style: italic;
+}
+
+.text2 {
+    text-indent: 40px;
+    text-decoration: line-through;
+}
+
+.text3 {
+    text-align: center;
+    text-transform: uppercase;
+}
+
+.text4 {
+    color: rgb(103, 13, 103);
+    word-spacing: 30px;
+    text-decoration: overline wavy;
+    text-shadow: 1px 0.5px 1px #000;
+}
+
+.text5 {
+    letter-spacing: 5px;
+    text-decoration: double underline;
+    text-decoration-thickness: 1px;
+}
+
+.text6 {
+    font-family: "Kablammo";
+    font-size: 10px;
+    font-style: italic;
+    text-indent: 40px;
+    letter-spacing: 3px;
+    word-spacing: 2px;
+    text-align: left;
+    text-decoration: underline dashed;
+    text-decoration-color: red;
+    text-decoration-thickness: 2px;
+    text-transform: capitalize;
+}
