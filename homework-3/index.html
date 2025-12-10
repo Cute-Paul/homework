@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="ru">
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<title>Домашнее задание №3</title>
+		<link rel="stylesheet" href="./style.css" />
+	</head>
+	<body>
+		<form class="form">
+			<fieldset class="field">
+				<h3>Ваши личные данные</h3>
+				<label class="block" for="">
+					<span>Ваше имя</span>
+					<br />
+					<input
+						class="input"
+						type="name"
+						required
+						placeholder="Имя"
+						name="name"
+					/>
+				</label>
+				<label class="block" for="">
+					<span>Ваш возраст</span>
+					<br />
+					<input
+						class="input"
+						type="number"
+						inputmode="numeric"
+						required
+						placeholder="Возраст"
+						name="age"
+					/>
+				</label>
+				<label class="block" for="">
+					<span>Ваш номер телефона</span>
+					<br />
+					<input
+						class="input"
+						type="tel"
+						inputmode="tel"
+						required
+						placeholder="Номер телефона"
+						name="tel"
+					/>
+				</label>
+				<label class="block" for="">
+					<span>Ваша почта</span>
+					<br />
+					<input
+						class="input"
+						type="email"
+						inputmode="email"
+						required
+						placeholder="Почта"
+						name="email"
+					/>
+				</label>
+				<label class="block" for="">
+					<span>Сообщение</span>
+					<br />
+					<textarea
+						class="text-block"
+						name="message"
+						required
+						placeholder="Ваше сообщение"
+					></textarea>
+				</label>
+				<label class="label" for="">
+					<input type="checkbox" name="agreement" value="agreement" />
+					<span>Я принимаю правила</span>
+				</label>
+			</fieldset>
+			<button class="button" type="submit">Отправить</button>
+		</form>
+	</body>
+</html>
