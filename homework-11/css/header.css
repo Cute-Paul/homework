@@ -1,0 +1,42 @@
+.header-inner {
+	display: -webkit-box;
+	display: -ms-flexbox;
+	display: flex;
+	-webkit-box-pack: justify;
+	-ms-flex-pack: justify;
+	justify-content: space-between;
+	-webkit-box-align: center;
+	-ms-flex-align: center;
+	align-items: center;
+	gap: 10px;
+	padding-top: 30px;
+	padding-bottom: 30px;
+	border-bottom: 1px solid #d3cbd9;
+}
+
+.contacts {
+	text-align: right;
+}
+
+.contacts-text {
+	font-weight: 300;
+	font-size: 14px;
+	letter-spacing: 0.04em;
+	text-transform: uppercase;
+	color: #858e8a;
+	margin-bottom: 8px;
+}
+
+.contacts-phone {
+	font-weight: 500;
+	font-size: 18px;
+	color: #2c332f;
+	text-decoration: none;
+	-webkit-transition: color 0.2s;
+	-o-transition: color 0.2s;
+	transition: color 0.2s;
+}
+
+.contacts-phone:hover {
+	color: #3596ed;
+}
